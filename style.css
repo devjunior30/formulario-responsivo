@@ -5,10 +5,10 @@
     font-family: 'Anton', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-}    
+}
 
 body {
-background-color: rgb(0,0,205, .9) disable;
+    background-color: rgb(0, 0, 205, .9) disable;
 
 }
 
@@ -35,7 +35,9 @@ background-color: rgb(0,0,205, .9) disable;
     font-family: 'Anton', sans-serif;
 }
 
-label, input, textarea {
+label,
+input,
+textarea {
     display: block;
     margin: 10px 0 10px 30px;
     font-family: 'Poppins', sans-serif;
@@ -101,15 +103,15 @@ button:active {
     display: inline-block;
     position: relative;
     margin-top: 50px;
-    
+
 }
 
 #h1-final {
-   margin: 10px 0 10px 50px;
-   font-family: 'Anton', sans-serif;
-   font-style: italic;
-   font-size: 30px;
-   letter-spacing: 2px;
+    margin: 10px 0 10px 50px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 #h1-final::first-letter {
@@ -134,7 +136,7 @@ button:active {
     border-radius: 10px;
 }
 
- #a { 
+#a {
     text-decoration: none;
     margin-top: 30px;
     margin-left: 100px;
@@ -152,4 +154,62 @@ button:active {
 
 #a:visited {
     color: red;
+}
+
+footer {
+    background: rgb(28, 28, 191);
+    background: linear-gradient(360deg, rgba(28, 28, 191, 1) 35%, rgba(44, 137, 212, 1) 100%);
+    margin-top: 50px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px 0 0 20px;
+}
+
+.link {
+    color: white;
+    margin: 15px 8px 10px 15px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+header {
+    display: inline-block;
+}
+
+aside {
+    display: inline-block;
+   
+}
+
+h4 {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    margin-left: 50px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+h4::before {
+    content: "📞";
+}
+
+#p {
+    font-size: 15px;
+    color: white;
+    font-weight: 300px;
+    width: auto;
+    margin-left: 70px;
+}
+
+#ultimo {
+    display: inline-block;
+    font-size: 15px;
+    width: 250px;
+    
 }
