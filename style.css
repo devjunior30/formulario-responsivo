@@ -160,7 +160,7 @@ footer {
     background: rgb(28, 28, 191);
     background: linear-gradient(360deg, rgba(28, 28, 191, 1) 35%, rgba(44, 137, 212, 1) 100%);
     margin-top: 50px;
-    height: 200px;
+    height: auto;
     border-radius: 15px;
     margin-left: 10px;
     margin-right: 10px;
@@ -169,30 +169,32 @@ footer {
 
 .link {
     color: white;
-    margin: 15px 8px 10px 15px;
+    margin-bottom: 10px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: oblique;
+    display: block;
+    margin-left: 20px;
 }
 
-header {
-    display: inline-block;
-}
-
-aside {
+#div-link {
     display: inline-block;
    
+}
+
+#lado-esquerdo {
+    display: inline-block;
+    margin-left: 100px;
 }
 
 h4 {
     font-size: 25px;
     color: white;
     font-weight: 500;
-    position: relative;
-    margin-left: 50px;
-    width: 300px;
-    margin-top: 50px;
+    margin-left: 40px;
+   margin-top: 20px;
+    
 }
 
 h4::before {
@@ -200,16 +202,25 @@ h4::before {
 }
 
 #p {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-weight: 300px;
-    width: auto;
+    width: 350px;
     margin-left: 70px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #ultimo {
-    display: inline-block;
-    font-size: 15px;
-    width: 250px;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 30vw;
+    color: white;
     
+}
+
+#img-footer {
+    display: inline-block;
+    width: 300px;
+    margin-left: 60px;
 }
