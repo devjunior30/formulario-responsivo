@@ -169,31 +169,36 @@ footer {
 
 .link {
     color: white;
-    margin-bottom: 10px;
+    
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: oblique;
-    display: block;
+    display: inline-block;
+    
     margin-left: 20px;
 }
 
 #div-link {
     display: inline-block;
-
+    position: absolute;
 }
 
 #lado-esquerdo {
     display: inline-block;
+}
+
+#h4 {
     margin-left: 100px;
+    position: relative;
+    margin-left: 133px;
 }
 
 h4 {
     font-size: 25px;
     color: white;
     font-weight: 500;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 50px;
 
 }
 
@@ -220,15 +225,16 @@ h4::before {
 }
 
 #img-footer {
-    display: inline-block;
+    display: block;
     width: 300px;
-    margin-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width:767px) {
 
     body {
-        background-color: rgb(0, 0, 205, .9)
+    background-color: rgb(63, 63, 216);
     }
 
     #h1-inicial {
@@ -278,5 +284,40 @@ h4::before {
 
     #a {
         color: white;
+    }
+
+    footer {
+      width: 100%;
+    }
+
+    .link {
+        display: inline;
+        font-size: 17px;
+        margin: 10px 7px ;
+    }
+
+    .link:nth-last-child(1) {
+        display: none;
+    }
+
+    h4 {
+       margin-right: 20px;
+    }
+
+    #lado-esquerdo {
+        display: block;
+    }
+    
+    #p {
+      display: none;
+    }
+
+    #div-paragrafo {
+        display: block;
+    }
+
+    #img-footer {
+        display: block;
+        width: 200px;
     }
 }
