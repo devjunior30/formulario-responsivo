@@ -287,8 +287,8 @@ h4::before {
 
     #img {
         display: inline-block;
-        width: 200px;
-        height: 100px;
+        width: 500px;
+        height: auto;
         margin-left: 20px;
     }
 
